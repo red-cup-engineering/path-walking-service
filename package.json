@@ -1,7 +1,7 @@
 {
   "name": "@red-cup-engineering/path-walking-service",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.5.1",
+  "private": false,
   "type": "module",
   "description": "Walks the real filesystem under one explicit root and reports the files, symlinks, and directories it finds, digested and deterministically sorted. Use to read a working-tree chart off disk before slicing or graphing it.",
   "exports": "./src/walk-posix-paths.mjs",
@@ -15,5 +15,12 @@
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "files": [
+    "package.json",
+    "README*",
+    "LICENSE*",
+    "scripts",
+    "src"
+  ]
 }
