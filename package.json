@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/path-walking-service",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "private": false,
   "type": "module",
   "description": "Walks the real filesystem under one explicit root and reports the files, symlinks, and directories it finds, digested and deterministically sorted. Use to read a working-tree chart off disk before slicing or graphing it.",
