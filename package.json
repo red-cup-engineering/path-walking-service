@@ -4,6 +4,11 @@
   "private": false,
   "type": "module",
   "description": "Walks the real filesystem under one explicit root and reports the files, symlinks, and directories it finds, digested and deterministically sorted. Use to read a working-tree chart off disk before slicing or graphing it.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
+    "directory": "services/file-observation-services-section/services/path-walking-service"
+  },
   "exports": "./src/walk-posix-paths.mjs",
   "bin": {
     "walk-posix-paths": "./scripts/walk-posix-paths.mjs"
